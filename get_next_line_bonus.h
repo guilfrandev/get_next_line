@@ -6,7 +6,7 @@
 /*   By: guilfran <guilfran@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 16:28:05 by guilfran          #+#    #+#             */
-/*   Updated: 2026/10/06 11:31:48 by guilfran         ###   ########.fr       */
+/*   Updated: 2026/10/07 19:03:15 by guilfran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,9 @@
 # include <unistd.h>
 
 char	*get_next_line(int fd);
+int		ft_lenchr(char *s, int mode);
+char	*ft_strjoin(char *s1, char *s2);
+char	*ft_line(char *s);
+char	*ft_readline(char **line, char *stash, int fd);
 
 #endif
